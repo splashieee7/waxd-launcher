@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="semitransparent_navigation">#33000000</color>
+
+    <!--
+        Waxd terminal/ops-console theme. These names override fossify-commons'
+        defaults (org.fossify:commons res/values/colors.xml) via Android's
+        library-resource-merge precedence — no commons fork needed. Copy this
+        block, unchanged names, into every future Waxd reskin to keep them in sync.
+    -->
+    <color name="waxd_background">#0A0C0A</color>
+    <color name="waxd_text">#D8F5E0</color>
+    <color name="waxd_primary">#2E9E5B</color>
+    <color name="waxd_accent">#4CFF8B</color>
+
+    <color name="default_background_color">@color/waxd_background</color>
+    <color name="default_text_color">@color/waxd_text</color>
+    <color name="default_primary_color">@color/waxd_primary</color>
+    <color name="default_accent_color">@color/waxd_accent</color>
+    <color name="default_app_icon_color">@color/waxd_primary</color>
+    <color name="default_widget_text_color">@color/waxd_primary</color>
+</resources>
