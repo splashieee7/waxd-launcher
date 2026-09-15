@@ -8,6 +8,7 @@
 /captures
 keystore.jks
 keystore.properties
+.keystore_secrets.txt
 fastlane/fastlane.json
 fastlane/report.xml
 .kotlin/
