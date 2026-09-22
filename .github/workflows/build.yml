@@ -71,7 +71,7 @@ jobs:
       # which is what Obtainium / a private F-Droid repo can track for updates.
       - name: Publish release
         if: startsWith(github.ref, 'refs/tags/v')
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           files: ${{ steps.apk.outputs.path }}
           generate_release_notes: true
